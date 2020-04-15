@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>It's Always Sunny Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid bg-info">
+        <div class="container">
+            <h1>It's Always Sunny in...</h1>
+        </div>
+    </header>
+
+    <div class="container-fluid ml-2">
+        <div class="row">
+            <div class="card col-3 pt-2 pl-2" style="width: 300px;">
+                <form id="search">
+                    <input type="text" placeholder="What's the Weather in..." id="#" class="#w-75">
+                    <input type="submit" id="submitSearch">
+                </form>
+            </div>
+
+            <!-- Table to display current weather -->
+            <div class="col-8 ml-5">
+                <div class="row mb-2">
+                    <section class="card w-100 p-2" id="weatherDisplay">
+                        <h3>City:</h3>  Date
+                        <img id="weatherIcon" src="" class="w-25">
+                        <p id="#">
+                            Temperature:
+                        </p>
+                        <p id="#">
+                            Humidity:
+                        </p>
+                        <p id="#">
+                            Windspeed:
+                        </p>
+                        <div id="#">
+                            UV:
+                        </div>
+                    </section>
+                </div>
+    
+                <div class="row mt-2">
+                    <section class="#" id="future">
+                       
+                      </section>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <br>
+
+          <div id="sq-quote-wrapper">Loading..</div>
+
+<script src="http://sunnyquotes.net/api/sq-api.js" id="sq-js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
