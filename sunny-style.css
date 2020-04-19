@@ -1,5 +1,11 @@
-<div id="sq-quote-wrapper">
+/* <div id="sq-quote-wrapper">
     <div class="sq-quote"></div>
     <div class="sq-who"></div>
     <div class="sq-episode"></div>
-</div>
+</div> */
+
+
+.header{
+    background-color: darkorange;
+    color: white
+}
